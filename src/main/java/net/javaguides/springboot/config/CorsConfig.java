@@ -20,7 +20,6 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(allowedOrigin)
                         .allowedMethods("*")
-                        .maxAge(3600L)
                         .allowedHeaders("*");
             }
         };
