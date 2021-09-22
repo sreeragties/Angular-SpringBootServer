@@ -11,8 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
-@RestController
+@CrossOrigin(origins = "https://boiling-island-04165.herokuapp.com/"
+9@RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
 
