@@ -12,7 +12,7 @@ public class CorsConfig {
     @Value("${allowed.origin}")
     private String allowedOrigin;
     @Bean
-    public WebMvcConfigurer getCorsConsfiguration() {
+    public WebMvcConfigurer getCorConsfiguration() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
